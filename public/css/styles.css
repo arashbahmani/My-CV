@@ -1,0 +1,251 @@
+@font-face {
+  font-family: "tanha";
+  src: url("../fonts/tanha/Tanha-FD-WOL.eot");
+  src: url("../fonts/tanha/Tanha-FD-WOL.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/tanha/Tanha-FD-WOL.woff2") format("woff2"),
+    url("../fonts/tanha/Tanha-FD-WOL.woff") format("woff"),
+    url("../fonts/tanha/Tanha-FD-WOL.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/vazir/Vazir-Bold-FD-WOL.eot");
+  src: url("../fonts/vazir/Vazir-Bold-FD-WOL.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/vazir/Vazir-Bold-FD-WOL.woff2") format("woff2"),
+    url("../fonts/vazir/Vazir-Bold-FD-WOL.woff") format("woff"),
+    url("../fonts/vazir/Vazir-Bold-FD-WOL.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/vazir/Vazir-FD-WOL.eot");
+  src: url("../fonts/vazir/Vazir-FD-WOL.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/vazir/Vazir-FD-WOL.woff2") format("woff2"),
+    url("../fonts/vazir/Vazir-FD-WOL.woff") format("woff"),
+    url("../fonts/vazir/Vazir-FD-WOL.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/vazir/Vazir-Light-FD-WOL.eot");
+  src: url("../fonts/vazir/Vazir-Light-FD-WOL.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/vazir/Vazir-Light-FD-WOL.woff2") format("woff2"),
+    url("../fonts/vazir/Vazir-Light-FD-WOL.woff") format("woff"),
+    url("../fonts/vazir/Vazir-Light-FD-WOL.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/vazir/Vazir-Thin-FD-WOL.eot");
+  src: url("../fonts/vazir/Vazir-Thin-FD-WOL.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/vazir/Vazir-Thin-FD-WOL.woff2") format("woff2"),
+    url("../fonts/vazir/Vazir-Thin-FD-WOL.woff") format("woff"),
+    url("../fonts/vazir/Vazir-Thin-FD-WOL.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/vazir/Vazir-Medium-FD-WOL.eot");
+  src: url("../fonts/vazir/Vazir-Medium-FD-WOL.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/vazir/Vazir-Medium-FD-WOL.woff2") format("woff2"),
+    url("../fonts/vazir/Vazir-Medium-FD-WOL.woff") format("woff"),
+    url("../fonts/vazir/Vazir-Medium-FD-WOL.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/vazir/Roboto-Bold.eot");
+  src: url("../fonts/roboto/vazir/Roboto-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto/vazir/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/roboto/vazir/Roboto-Bold.woff") format("woff"),
+    url("../fonts/roboto/vazir/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-BoldItalic.eot");
+  src: url("../fonts/roboto/Roboto-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto/Roboto-BoldItalic.woff2") format("woff2"),
+    url("../fonts/roboto/Roboto-BoldItalic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Italic.eot");
+  src: url("../fonts/roboto/Roboto-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto/Roboto-Italic.woff2") format("woff2"),
+    url("../fonts/roboto/Roboto-Italic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Lt";
+  src: url("../fonts/roboto/Roboto-Light.eot");
+  src: url("../fonts/roboto/Roboto-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto/Roboto-Light.woff2") format("woff2"),
+    url("../fonts/roboto/Roboto-Light.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Lt";
+  src: url("../fonts/roboto/Roboto-LightItalic.eot");
+  src: url("../fonts/roboto/Roboto-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto/Roboto-LightItalic.woff2") format("woff2"),
+    url("../fonts/roboto/Roboto-LightItalic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Lt";
+  src: url("../fonts/roboto/Roboto-Medium.eot");
+  src: url("../fonts/roboto/Roboto-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/roboto/Roboto-Medium.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Lt";
+  src: url("../fonts/roboto/Roboto-MediumItalic.eot");
+  src: url("../fonts/roboto/Roboto-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto/Roboto-MediumItalic.woff2") format("woff2"),
+    url("../fonts/roboto/Roboto-MediumItalic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Regular.eot");
+  src: url("../fonts/roboto/Roboto-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/roboto/Roboto-Regular.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Th";
+  src: url("../fonts/roboto/Roboto-Thin.eot");
+  src: url("../fonts/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"),
+    url("../fonts/roboto/Roboto-Thin.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Th";
+  src: url("../fonts/roboto/Roboto-ThinItalic.eot");
+  src: url("../fonts/roboto/Roboto-ThinItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto/Roboto-ThinItalic.woff2") format("woff2"),
+    url("../fonts/roboto/Roboto-ThinItalic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-image: url("../blackHole.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.MuiCard-root::-webkit-scrollbar {
+  display: none !important ;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.glassmorphism {
+  display: flex;
+  position: relative;
+  /* Setting the size of the upper layer to 80% of the screen size*/
+  align-items: center;
+  justify-content: space-between;
+
+  /* This controls the blurring effect*/
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  /*Adding the shadow*/
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+
+  /* Adding our borders*/
+  border-radius: 10px 0 0 10px;
+  z-index: 4;
+}

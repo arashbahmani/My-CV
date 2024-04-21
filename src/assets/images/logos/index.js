@@ -1,0 +1,15 @@
+export { default as ReactIcon } from "./reactIcon.png";
+export { default as CCNA_RandSIcon } from "./CCNA R&S.png";
+export { default as WordpressIcon } from "./WordPress logo.png";
+export { default as AIIcon } from "./ai.png";
+export { default as AlgorithemIcon } from "./computer algorithems.png";
+export { default as CSSIcon } from "./css icon.png";
+export { default as DatabaseIcon } from "./database.png";
+export { default as FigmaIcon } from "./figma logo.png";
+export { default as GitIcon } from "./git logo.png";
+export { default as GithubIcon } from "./github logo.png";
+export { default as HTMLIcon } from "./html icon.png";
+export { default as IASBSIcon } from "./iasbslogo.png";
+export { default as JSIcon } from "./js.png";
+export { default as MUIIcon } from "./mui logo.png";
+export { default as ReduxIcon } from "./redux logo.png";
