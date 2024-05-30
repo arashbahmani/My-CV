@@ -31,7 +31,7 @@ const Contacts = ({ helmetTitle }) => {
             <Typography color="textColor.main" variant="body2" mr={2}>
               ایمیل:
             </Typography>
-            <Typography color="textColor.main" variant="h3">
+            <Typography color="textColor.main" variant="body1">
               arashbahmani7878@gmail.com
             </Typography>
           </Box>

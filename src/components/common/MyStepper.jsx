@@ -42,13 +42,8 @@ export default function MyStepper({ label, steps }) {
     setActiveStep(step);
   };
 
-  const handleReset = () => {
-    setActiveStep(0);
-    setCompleted({});
-  };
-
   return (
-    <Box sx={{ mx: 4, my: 8, direction: "ltr" }}>
+    <Box sx={{ m: 4, direction: "ltr" }}>
       <Box sx={{ width: "100%", direction: "ltr" }}>
         <Typography variant="h2" color="white" sx={{ my: 6 }}>
           {label}

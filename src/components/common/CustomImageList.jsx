@@ -19,6 +19,8 @@ import {
   img12,
 } from "../../assets/images/gallery";
 import { InfoRounded } from "@mui/icons-material";
+import { useMediaQuery } from "@mui/material";
+import { useTheme } from "@emotion/react";
 
 const itemData = [
   {
@@ -86,10 +88,18 @@ const itemData = [
 ];
 
 export default function CustomImageList() {
+  const theme = useTheme();
+  const matchDownMd = useMediaQuery(theme.breakpoints.down("sm"));
+
   return (
     <ImageList
-      sx={{ width: "90%", height: "90%", margin: "0 auto", borderRadius: 1 }}
-      cols={4}
+      sx={{
+        width: "90%",
+        height: "90%",
+        margin: "0 auto",
+        borderRadius: 1,
+      }}
+      cols={matchDownMd ? 2 : 4}
     >
       {itemData.map((item) => (
         <ImageListItem key={item.img} sx={{ m: 0.5 }}>

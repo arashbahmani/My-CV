@@ -17,11 +17,11 @@ function CircularProgressWithLabel(props) {
     <Box sx={{ position: "relative", display: "inline-flex" }}>
       <CircularProgress
         variant="determinate"
-        size="25vh"
+        size="10rem"
         thickness={8}
         style={{
           border: "solid rgba(0, 0, 0, 0.1) 3px",
-          borderRadius: 100,
+          borderRadius: 10000,
           zIndex: 10,
         }}
         {...props}
@@ -37,7 +37,7 @@ function CircularProgressWithLabel(props) {
           alignItems: "center",
           justifyContent: "center",
           backgroundColor: color,
-          borderRadius: 100,
+          borderRadius: 10000,
         }}
       >
         <img src={props.icon} alt={props.name} width="60vh" />
@@ -67,7 +67,7 @@ export default function CircleTable({ number, name, icon }) {
   }, []);
 
   return (
-    <Grid xs={6} sm={6} md={3} lg={3} xl={3}>
+    <Grid xs={6} sm={6} md={3} lg={3} xl={3} sx={{ mb: 4 }}>
       <Tooltip
         isableFocusListener
         TransitionComponent={Zoom}
@@ -76,8 +76,9 @@ export default function CircleTable({ number, name, icon }) {
       >
         <CircularProgressWithLabel value={progress} icon={icon} />
         <Typography
+          variant="h3"
           color="white"
-          sx={{ m: 2, textAlign: "center", transform: "translateX(-15%)" }}
+          sx={{ textAlign: "center", m: 0.5 }}
         >
           {`${Math.round(progress)}%`}
         </Typography>

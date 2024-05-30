@@ -40,7 +40,6 @@ const Records = ({ helmetTitle }) => {
       sx={{
         height: "100%",
         width: "100%",
-        display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignContent: "center",
@@ -49,7 +48,7 @@ const Records = ({ helmetTitle }) => {
       <Helmet>
         <title>{helmetTitle}</title>
       </Helmet>
-      <Box sx={{ m: 6, mt: 12 }}>
+      <Box sx={{ m: 3 }}>
         <MyStepper label="سابقه کار من" steps={steps} />
         <CustomCardsList title="نمونه کار‌ها" cardsList={workSamplesList} />
       </Box>

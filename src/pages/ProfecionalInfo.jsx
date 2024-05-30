@@ -26,8 +26,9 @@ import {
 } from "../assets/images/courses";
 import CircleTablesList from "../components/common/CircleTablesList";
 import CustomCardsList from "../components/common/CustomCardsList";
+import { Helmet } from "react-helmet-async";
 
-const ProfecionalInfo = () => {
+const ProfecionalInfo = ({ helmetTitle }) => {
   const skilsList = [
     { name: "React", number: 80, icon: ReactIcon },
     { name: "MUI", number: 85, icon: MUIIcon },
@@ -86,7 +87,7 @@ const ProfecionalInfo = () => {
     },
     {
       title: "دبیرستان  بهشتی2 زنجان",
-      info: "رشته ریاضی‌قیزیک در دبیرستان استعداد‌های درخشان شهید بهشتی 2 زنجان در سال‌های 1393 تا 97",
+      info: "رشته ریاضی‌فیزیک در دبیرستان استعداد‌های درخشان شهید بهشتی 2 زنجان در سال‌های 1393 تا 97",
       link: "",
     },
     {
@@ -98,7 +99,10 @@ const ProfecionalInfo = () => {
 
   return (
     <Box sx={{ height: "100%", width: "100%", overflowY: "scroll" }}>
-      <Box sx={{ m: 6 }}>
+      <Helmet>
+        <title>{helmetTitle}</title>
+      </Helmet>
+      <Box sx={{ m: 3 }}>
         <MyStepper label="تحصیلات" steps={steps} />
         <CircleTablesList title="توانایی‌ها" tabelsList={skilsList} />
         <CustomCardsList title="دوره‌ها" cardsList={courcesList} />

@@ -20,6 +20,10 @@ const typographyTheme = {
     letterSpacing: "1%",
     textShadow: "black 0px 3px 3px",
   },
+  h4: {
+    fontSize: 24,
+    fontWeight: "bold",
+  },
 
   body1: {
     fontSize: 18,
@@ -31,10 +35,9 @@ const typographyTheme = {
     textShadow: "black 0px 3px 3px",
   },
   body3: {
-    fontSize: 14,
+    fontSize: 16,
     fontWeight: 100,
-    letterSpacing: "-5%",
-    textShadow: "black 0px 3px 3px",
+    letterSpacing: "-2%",
   },
 };
 

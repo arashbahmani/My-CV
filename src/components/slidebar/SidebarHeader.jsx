@@ -54,6 +54,7 @@ const SidebarHeader = () => {
         size="small"
         sx={{ mx: 0.35, transform: "TranslateY(-70%)" }}
         href="https://www.instagram.com/kamangir7878/"
+        target="_blank"
       >
         <Instagram />
       </Fab>

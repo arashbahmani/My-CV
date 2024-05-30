@@ -72,7 +72,7 @@ const PersonalInfo = ({ helmetTitle }) => {
         <title>{helmetTitle}</title>
       </Helmet>
 
-      <Grid container sx={{ m: 4, mb: 6 }}>
+      <Grid container sx={{ my: 4, mx: 2, mb: 6 }}>
         {mainInfo.map((info) => (
           <Info label={info.label} name={info.name} />
         ))}

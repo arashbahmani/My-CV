@@ -36,6 +36,10 @@ function AppContainer() {
     setPageNumber(newPage);
   };
 
+  const handlepageChange = (index) => {
+    setPageNumber(index);
+  };
+
   return (
     <MainContext.Provider
       value={{
@@ -52,7 +56,12 @@ function AppContainer() {
         </SidebarContainer>
 
         <PageContainer>
-          <SwipeableViews index={pageNumber} onChangeIndex={handlePageNumber}>
+          <SwipeableViews
+            enableMouseEvents
+            axis="x"
+            index={pageNumber}
+            onChangeIndex={handlepageChange}
+          >
             <Page pageNumber={pageNumber} index={0}>
               <Home helmetTitle="آرش بهمنی | وبسایت شخصی" />
             </Page>

@@ -13,15 +13,20 @@ const CustomCard = ({ img, title, info, link }) => {
   return (
     <Grid xs={12} sm={12} md={6} lg={3} xl={3} sx={{ p: 2 }}>
       <a href={link} target="_blank">
-        <Card sx={{ height: "100%" }}>
+        <Card
+          sx={{
+            height: "100%",
+            backgroundColor: "secondary.light",
+          }}
+        >
           <CardActionArea>
             <CardMedia component="img" image={img} alt={title} height="250vh" />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h4" component="div">
                 {title}
               </Typography>
               <Typography
-                variant="body2"
+                variant="body3"
                 color="text.secondary"
                 sx={{ textAlign: "justify" }}
               >

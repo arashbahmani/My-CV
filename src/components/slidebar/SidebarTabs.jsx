@@ -4,11 +4,13 @@ import { Tabs, Tab } from "@mui/material";
 
 import MainContext from "../../context";
 import { tabsData } from "../../data/tabsData";
+import { useTheme } from "@emotion/react";
 
 const SidebarTabs = () => {
   const { pageNumber, handlePageNumber, setDrawerOpen } =
     useContext(MainContext);
   const data = tabsData();
+  const theme = useTheme().palette.mode;
 
   return (
     <Tabs
@@ -37,7 +39,7 @@ const SidebarTabs = () => {
               fontWeight: "thin",
             },
             "&.Mui-selected": {
-              color: "#623AB1",
+              color: theme === "dark" ? "#623AB1" : "#black",
               fontSize: 18,
               fontWeight: "bold",
             },
