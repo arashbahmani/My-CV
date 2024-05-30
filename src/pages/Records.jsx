@@ -25,13 +25,13 @@ const Records = ({ helmetTitle }) => {
       img: workSamplesImage,
       title: "خوان",
       info: "یه وبسایت SPA ساده برای ذخیره و نمایش اطلاعات کتاب‌ها.",
-      link: "",
+      link: "https://arashbahmani.github.io/khan/",
     },
     {
       img: workSamplesImage,
       title: "Todo List",
       info: "یک لیست امور ساده با قابلیت ساختن زیرکارها.",
-      link: "",
+      link: "https://arashbahmani.github.io/Todo/",
     },
   ];
 
